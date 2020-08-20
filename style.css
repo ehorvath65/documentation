@@ -21,7 +21,7 @@ body {
 }
 
 header {
-    color: black;
+    color: #4d4e53;;
     margin: 10px;
     text-align: center;
     font-size: 1.8em;
@@ -84,7 +84,6 @@ section li {
    }
 
 #navbar {
-    background-color: red;
     position: absolute;
     top: 0;
     padding: 0;
