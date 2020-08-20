@@ -5,17 +5,19 @@ body {
     background-color: white;
     font-family: sans-serif;
     line-height: 1.5;
+    margin-left: 5vw;
+    margin-right: 20vw;
 }
 
 #navbar {
+    flex-direction: column;
     position: fixed;
     min-width: 290px;
     top: 0px;
-    left: 0px;
     width: 300px;
     height: 100%;
     border-right: solid;
-    border-color: aqua;
+    border-color: rgb(165, 68, 12);
 }
 
 header {
@@ -39,8 +41,8 @@ header {
 }
 
 #navbar li {
-   color: chartreuse;
-   border-top: 1px solid;
+   color: sienna;
+   border-bottom: 1px solid;
    list-style: none;
    position: relative;
    width: 100%;
@@ -53,12 +55,16 @@ header {
     text-decoration: none;
     cursor: pointer;
 }
+#navbar a:hover {
+    color: hsl(0, 44%, 19%);
+}
 
 #main-doc {
     position: absolute;
     margin-left: 310px;
     padding: 20px;
     margin-bottom: 110px;
+    width: 60vw;
 }
 
 section article {
@@ -101,4 +107,8 @@ section li {
     #main-doc {
         margin-left: -15px;
     }
+}
+
+.pictures {
+    height: 300px;
 }
